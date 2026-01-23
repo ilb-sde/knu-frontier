@@ -1,0 +1,108 @@
+{
+  "student_info": {
+    "name": "송다은",
+    "student_id": "10317",
+    "created_date": "2026-01-23"
+  },
+  "works": [
+    {
+      "session": 4,
+      "timestamp": "2026-01-23 06:20:37",
+      "prompt": "a beautiful portrait of a young woman, elegant dress, garden background, soft lighting",
+      "negative_prompt": "bad hands, extra fingers, mutated hands, poorly drawn face, mutation, deformed, ugly",
+      "technique": "네거티브 프롬프팅",
+      "notes": "창의적이게 하였을때는 색감이나 화질 정도가 이쁘지만, 사람의 얼굴같은 것들은 보기 좀 기괴하다. 반대로 프롬포트를 지킬려고 했을 때는 색감이나 화질은 별로지만, 사람의 얼굴이나 몸은 퀄리티가 좋게 나온다.",
+      "image_path": "images/session4_1.png"
+    },
+    {
+      "session": 5,
+      "timestamp": "2026-01-23 06:30:03",
+      "prompt": "alone",
+      "negative_prompt": "blurry, low quality, distorted, text, watermark",
+      "technique": "Step-back 프롬프팅",
+      "notes": "step-back를 쓰지 않는다면 Ai가 생각하는 것을 출력해서 우리 기준에서는 이해할 수 없는 그런 그림이 생성되는 것 같다",
+      "image_path": "images/session5_1.png"
+    },
+    {
+      "session": 6,
+      "timestamp": "2026-01-23 06:35:28",
+      "prompt": "a robot",
+      "negative_prompt": "blurry, low quality",
+      "technique": "CoT 레이어 빌딩",
+      "notes": "cot를 활용하면 Ai가 결과를 더 구체적이게 하고, 퀄리티가 더 올라간다",
+      "image_path": "images/session6_1.png"
+    },
+    {
+      "session": 7,
+      "timestamp": "2026-01-23 06:42:56",
+      "prompt": "a cute gray hamster, pixel art, 16-bit, retro game style, highly detailed, sharp focus, 8k resolution",
+      "negative_prompt": "blurry, low quality, distorted, ugly, bad anatomy",
+      "technique": "종합",
+      "notes": "이미지 하나를 만들 때도 여러가지 요소를 조절할 수 있다는 것이 흥미롭다",
+      "image_path": "images/session7_1.png"
+    },
+    {
+      "session": 1,
+      "timestamp": "2026-01-23 06:48:01",
+      "prompt": "a gray hamster",
+      "negative_prompt": "-",
+      "technique": "기본 프롬프팅",
+      "notes": "질문을 구체적이게 할 수록 그림을 그릴때 지켜야 할 것이 많아져서 퀄리티가 높아짐",
+      "image_path": "images/session1_1.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 06:49:21",
+      "prompt": "a hamster",
+      "negative_prompt": "-",
+      "technique": "Zero-shot 프롬프팅",
+      "notes": "제로슛은 구체적인 예시나 설명없이 단순히 요청하는 것이고 디테일은 구체적인 예시나 설명을 들어 요청하는 것이다",
+      "image_path": "images/session2_1.png"
+    },
+    {
+      "session": 3,
+      "timestamp": "2026-01-23 06:51:02",
+      "prompt": "a forest, oil painting style, rich textures, classical art",
+      "negative_prompt": "-",
+      "technique": "스타일 프롬프팅",
+      "notes": "하나의 큰 요소로 어떤 말이나 설명을 덧붙이냐에 따라 결과가 많이 달라짐",
+      "image_path": "images/session3_1.png"
+    },
+    {
+      "session": 4,
+      "timestamp": "2026-01-23 06:53:10",
+      "prompt": "a beautiful portrait of a young woman, elegant dress, garden background, soft lighting",
+      "negative_prompt": "bad hands, extra fingers, mutated hands, poorly drawn face, mutation, deformed, ugly",
+      "technique": "네거티브 프롬프팅",
+      "notes": "창의적이게 하였을때는 색감이나 화질 정도가 이쁘지만, 사람의 얼굴같은 것들은 보기 좀 기괴하다. 반대로 프롬포트를 지킬려고 하였을 때는 색감이나 화질은 별로지만, 사람의 얼굴이나 몸은 퀄리티가 좋게 나온다.",
+      "image_path": "images/session4_2.png"
+    },
+    {
+      "session": 5,
+      "timestamp": "2026-01-23 06:54:19",
+      "prompt": "a person sitting alone on an empty bench, rainy day, view from behind, grey cloudy sky, melancholic atmosphere",
+      "negative_prompt": "blurry, low quality, distorted, text, watermark",
+      "technique": "Step-back 프롬프팅",
+      "notes": "step-back를 쓰지 않는다면 Ai가 생각하는 것을 출력해서 우리 기준에서는 이해할 수 없는 그런 그림이 생성되는 것 같다",
+      "image_path": "images/session5_2.png"
+    },
+    {
+      "session": 6,
+      "timestamp": "2026-01-23 06:55:47",
+      "prompt": "a robot",
+      "negative_prompt": "blurry, low quality",
+      "technique": "CoT 레이어 빌딩",
+      "notes": "cot를 활용하면 Ai가 더 구체적이고, 더 좋은 퀄리티의 결과를 내는 것 같다",
+      "image_path": "images/session6_2.png"
+    },
+    {
+      "session": 7,
+      "timestamp": "2026-01-23 06:58:13",
+      "prompt": "a gray hamster, pixel art, 16-bit, retro game style, highly detailed, sharp focus, 8k resolution",
+      "negative_prompt": "blurry, low quality, distorted, ugly, bad anatomy",
+      "technique": "종합",
+      "notes": "어떻게 설명하고 어떻게 요청하는지에 따라 결과가 많이 바뀌고,  어떤 것을 얼마나 제한하거나 풀어주나에 따라 결과가 많이 바뀌는 것이 흥미롭다",
+      "image_path": "images/session7_2.png"
+    }
+  ]
+}
